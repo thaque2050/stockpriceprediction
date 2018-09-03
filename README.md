@@ -16,6 +16,8 @@ Scrap News and Conduct Sentiment Analysis
  * Some companies maynot be listed on NASDAQ, so please check before including them in analysis 
 
 Model Training and Prediction
-* Running the file - "Model Training and Prediction.R" will generate a function - "Model_Training_Prediction"
-* Use this function to build a model for prediction
-* The model uses news articles of the past 3 days to predict stock price movement
+* Use the file - "Model Training and Prediction.R" for modeling and prediction
+* I have used two model - SVM and XGBoost to build models and found that XGBoost has higher accuracy for sample data I collected
+* Just store outout of the "Extract_News_Stock_Price" function and store it in a data frame titled "sentiment_data"
+ * Run the code
+ * Output will be saved in a file - "Model Training and Prediction.pdf" - in the working directory
