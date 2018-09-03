@@ -4,5 +4,13 @@ A function to scarp news and stock price, and conduct sentiment analysis for eac
 Scrap News and Conduct Sentiment Analysis
 * Running the file named - "Scarp News and Sentiment Analysis.R" will generate a function - "Extract_News_Stock_Price"
 * Use this function to scrap web for news and stock prices
-* The function also conducts sentiment analysis on the scapped news articles to generate following three varialbes:
+* The function also conducts sentiment analysis on the scapped news articles to generate following three variables:
+  * Count of positive news for each day
+  * Count of negative news for each day
+  * Count of neutral news for each day
+* The function may give error if the input variable leads to zero collection of news articles
 
+Model Training and Prediction
+* Running the file - "Model Training and Prediction.R" will generate a function - "Model_Training_Prediction"
+* Use this function to build a model for prediction
+* The model uses news articles of the past 3 days to predict stock price movement
