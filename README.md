@@ -9,6 +9,11 @@ Scrap News and Conduct Sentiment Analysis
   * Count of negative news for each day
   * Count of neutral news for each day
 * The function may give error if the input variable leads to zero collection of news articles
+* Reuters is used to source news articles
+* NASDAQ website is used to source information related to stock prices
+* Input the vector "Stock_Tickers_REUTERS" as c("AAPL.OQ","MSFT.OQ","LMT.N")
+ * The tickers are sourced from the Reuters website and is consistent with NASDAQ
+ * Some companies maynot be listed on NASDAQ, so please check before including them in analysis 
 
 Model Training and Prediction
 * Running the file - "Model Training and Prediction.R" will generate a function - "Model_Training_Prediction"
